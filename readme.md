@@ -1,4 +1,6 @@
 ## A Robust URL Parser and Builder for Lua
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fneturl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fneturl?ref=badge_shield)
+
 
 This small Lua library provides a few functions to parse URL with querystring and build new URL easily.
 
@@ -57,3 +59,7 @@ URL resolution follows the examples provided in the [RFC 2396](http://tools.ietf
     `/./g` to `http://a/./g` instead of `http://a/g`
     `g;x=1/./y` to `http://a/b/c/g;x=1/./y` instead of `http://a/b/c/g;x=1/y`
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fneturl.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fneturl?ref=badge_large)
